@@ -1,1 +1,6 @@
-/* styles file */
+:root {
+  --product-box-bg-color: #cbf3f0;
+  --color-header-bg-color: #ffbf69;
+  --color-red: #fc2e20;
+}
+
