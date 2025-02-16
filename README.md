@@ -73,3 +73,38 @@ WEB_Practical_task_for_the_tutor</a>. Se considera como relevante para la creaci
 4. Modularización como estrategia de código limpio y escalable: 
 - **Codigo modularizado** se presentará el código modularizado en archivos para el JS, HTML, y CSS como ejercicio de buena practica, limpio y escalable.
 </details>
+
+
+<details>
+<summary> 04.- 🈯 Traducción </summary>
+<p>Teniendo como referente la página modelo que está en ruso, se utilizó el servicio de 
+<a href="https://translate.google.com/?sl=auto&tl=es&op=images" target="_blank">Google Translate</a> 
+para la traducción de la imagen obteniendo que la traducción se muestra así:</p>
+<div align="center">
+    <img src="creationResources/example.png" alt="Página traducida" width="200" style="max-width: 100%; height: auto;">
+</div>
+
+<code>
+&lt;header&gt;
+  NO_PUPYRKA.RU - Acerca de HAC - Descuentos - CONTACTO
+&lt;/header&gt; <br><br>
+&lt;section class="hero"&gt;
+  ¡POPLO! - ¡El mejor juguete antiestrés es el plástico de burbujas sin fin! - COMPRAR
+&lt;/section&gt; <br><br>
+&lt;section class="info"&gt;
+  ¿Qué es Pop it? - Pop it se traduce literalmente como "reventarlo". Se trata de un juego infantil cuyo proceso puede compararse con el de reventar un plástico de burbujas...
+&lt;/section&gt; <br><br>
+&lt;section class="products"&gt;
+  ¡Elige tu Pop-It! - Cuadrado multicolor - COMPRAR - Entre nosotros, mármol - COMPRAR - Redonda multicolor - COMPRAR
+&lt;/section&gt; <br><br>
+&lt;section class="rules"&gt;
+  Reglas del juego - Los jugadores se turnan para presionar los granos...
+&lt;/section&gt; <br><br>
+&lt;footer&gt;
+  NO_PUPYRKA.RU - Métodos de pago - Entrega - Al por mayor - Contactos
+&lt;/footer&gt; <br><br>
+</br>
+</code>
+
+**Nota** Teniendo en cuenta que NO_PUPYRKA.RU aparenta ser un link por su terminación .RU este se omitirá en este diseño
+</details>
