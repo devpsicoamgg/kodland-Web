@@ -54,3 +54,22 @@ A pesar de ser un archivo tipo markdown, se utilizaran etiquetas HTML para que l
   <img src="creationResources/colorCuentaGotas2.PNG" alt="Obtención del color #cbf3f0 del recuadro de productos" width="400">
   <img src="creationResources/colorCuentaGotas3.PNG" alt="Obtención del color #fc2e20 de imagen anexa" width="400">
 </div>  
+</details>
+
+<details>
+<summary> 03.- 🤔 Determinantes para la creación de la página </summary>
+<p>Teniendo como referente los estándares señalados en el archivo: 
+<a href="https://docs.google.com/document/d/13Cgg9-YRnDmsapwbVPKHjwK7v8ADk3FqlABR1GpUJ7A/edit?tab=t.0" target="_blank">
+WEB_Practical_task_for_the_tutor</a>. Se considera como relevante para la creación de la página con estos aspectos:
+</p>
+
+1. Combinación de Grid y Flexbox: 
+- **Grid** para las estructuras principales, layouts como header, sección principal, productos y footer.
+- **Flexbox** distribuir elementos en las secciones.
+2. Diseño Responsivo: 
+- **Responsive Design** se trabajará con media queries.
+3. Integración de JavaScript: 
+- **JavaScript** Se integrará JS para ventanas modales, menu hamburguesa.
+4. Modularización como estrategia de código limpio y escalable: 
+- **Codigo modularizado** se presentará el código modularizado en archivos para el JS, HTML, y CSS como ejercicio de buena practica, limpio y escalable.
+</details>
