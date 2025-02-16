@@ -50,7 +50,7 @@ A pesar de ser un archivo tipo markdown, se utilizaran etiquetas HTML para que l
 ```
 - Se agregan estos pantallazos de la obtención a la carpeta creationResources así: 
 <div align="center">
-  <img src="creationResources\colorCuentaGotas1.PNG" alt="Obtención del color #ffbf69 del header" width="400">
+  <img src="creationResources/colorCuentaGotas1.PNG" alt="Obtención del color #ffbf69 del header" width="400">
   <img src="creationResources/colorCuentaGotas2.PNG" alt="Obtención del color #cbf3f0 del recuadro de productos" width="400">
   <img src="creationResources/colorCuentaGotas3.PNG" alt="Obtención del color #fc2e20 de imagen anexa" width="400">
 </div>  
@@ -84,8 +84,7 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
     <img src="creationResources/example.png" alt="Página traducida" width="200" style="max-width: 100%; height: auto;">
 </div>
 
-<code>
-&lt;header&gt;
+<code>&lt;header&gt;
   NO_PUPYRKA.RU - Acerca de HAC - Descuentos - CONTACTO
 &lt;/header&gt; <br><br>
 &lt;section class="hero"&gt;
@@ -102,9 +101,24 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 &lt;/section&gt; <br><br>
 &lt;footer&gt;
   NO_PUPYRKA.RU - Métodos de pago - Entrega - Al por mayor - Contactos
-&lt;/footer&gt; <br><br>
-</br>
-</code>
+&lt;/footer&gt;</code>
+
 
 **Nota** Teniendo en cuenta que NO_PUPYRKA.RU aparenta ser un link por su terminación .RU este se omitirá en este diseño
+</details>
+
+<details>
+<summary> 04.- 🤯 Creación del Header </summary>
+
+1. Se crea el header. 
+1. Se agrega un favicon el cual se estiliza con la pagina de [favicon-converter](https://favicon.io/favicon-converter/). 
+2. Se aplican estilos para el header. 
+3. Se important fuentes de  [Google font](https://fonts.google.com/). 
+4. 
+<div align="center">
+  <img src="creationResources/fontMontserrat.PNG" alt="Fuente Montserrat" width="400">
+  <img src="creationResources/fontPoppins.PNG" alt="Fuente Poppins" width="400">
+  <img src="creationResources/fontRoboto.PNG" alt="Funente Roboto" width="400"></div> 
+
+2. Se crea un primer hover con trasformación de color y tamaño. 
 </details>
