@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-head);
 } 
 
 header {
@@ -21,29 +22,81 @@ header {
   align-items: center;
   padding: 20px 40px;
   background-color: var(--color-header-bg); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background: var(--color-header-bg);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-menu ul {
-  list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  list-style: none;
 }
 
-.nav-menu a {
-  display: inline;
-}
-
-.nav-menu a {
+.nav-menu ul li {
   text-decoration: none;
-  color: #242424;
-  font-size: 16px;
-  font-family: var(--font-btn-link);
+  color: var(--dark-text-color);
   font-weight: 600;
-  display: inline-block;
-  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
-.nav-menu a:hover {
-  color: var(--color-red);
-  transform: scale(1.1);
+.nav-menu ul li:hover {
+  color: var(--red-text-color);
+}
+
+
+
+/* DISEÑO RESPONSIVO*/
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-menu {
+    width: 100%;
+  }
+}
+
+/* PANTALLAS GRANDES */
+@media (min-width: 769px) {
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    height: auto;
+    width: auto;
+    background: none;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+  }
+
 }
