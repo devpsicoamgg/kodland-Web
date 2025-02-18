@@ -213,7 +213,7 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 
 <div style="font-size: 24px; font-weight: bold; text-align: center;">
   😃 PUEDES VISITAR EL SITIO DEPLOYADO DESDE NETLIFY EN   <br>
-  <a href="https://rainbow-strudel-eb3ab1.netlify.app/" target="_blank" style="font-size: 28px; color: #007bff; text-decoration: none; font-weight: bold;">
-    https://rainbow-strudel-eb3ab1.netlify.app/
+  <a href="https://gregarious-begonia-36aef3.netlify.app/" target="_blank" style="font-size: 28px; color: #007bff; text-decoration: none; font-weight: bold;">
+    https://gregarious-begonia-36aef3.netlify.app/
   </a>
 </div>
