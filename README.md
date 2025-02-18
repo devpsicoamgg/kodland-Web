@@ -150,3 +150,12 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 3. Se asignan estilos.
 4. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
 </details>
+
+<details>
+<summary> 07.- 🏅 Parte final en el body </summary>
+
+1. Se crea la parte final como una <code>&lt;section&gt;</code> con la clase "part-final". 
+2. Esta <code>&lt;section&gt;</code> contiene tres <code>&lt;div&gt;</code> a saber, circle, paragraph e img-hand 
+3. Se asignan estilos.
+4. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
+</details>
