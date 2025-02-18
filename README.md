@@ -126,9 +126,19 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 <details>
 <summary> 05.- 🥇 Parte uno </summary>
 
-1. Se crea la parte uno como una section. 
-2. Se crean 2 div dentro de la section que contienen la img y el texto. 
+1. Se crea la parte uno como una <code>&lt;section&gt;</code>. 
+2. Se crean 2 <code>&lt;div&gt;</code> dentro de la section que contienen la img y el texto. 
 3. Se agrega el btn. 
 4. Se asignan estilos.
 5. Se trabaja sobre estilos responsivos y en pantallas grandes para cada sección montada.
+</details>
+
+<details>
+<summary> 06.- 🥈 Parte dos </summary>
+
+1. Se crea la parte dos como una section. 
+2. Se crean un titulo <code>&lt;h2&gt;</code> teniendo como referente que ya hay un titulo <code>&lt;h1&gt;</code> y para respetar ese sentido semántico de un solo titulo principal. 
+3. Se agrega el btn. 
+4. Se asignan estilos.
+5. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
 </details>

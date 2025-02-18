@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 40px;
+  padding: 5px 10px;
   background-color: var(--color-header-bg); 
   position: fixed;
   top: 0;
@@ -109,7 +109,8 @@ header {
   cursor: pointer;
   font-size: 18px;
   border-radius: 8px; 
-  margin-left: 50%;
+  margin-left: 30%;
+  margin-bottom: 5%;
   transition: color 0.3s ease;
 }
 
@@ -122,7 +123,19 @@ header {
 
 .part-one-image img {
   max-width: 90%;
-  padding-right: 20%;
+  padding-right: 10%;
+}
+
+/* PARTE DOS */
+.part-two {
+  text-align: center;
+  padding: 100px;
+  background: var(--light-color);
+}
+
+.part-two h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 
@@ -137,6 +150,7 @@ header {
   .nav-menu {
     width: 100%;
   }
+/* PARTE 1*/
   .part-one {
     flex-direction: column;
     text-align: center;
@@ -151,6 +165,17 @@ header {
   .part-one-image img {
     max-width: 80%;
   }
+/* PARTE 2*/
+.part-two {
+  text-align: center;
+  padding: 100px;
+  background: var(--light-color);
+}
+
+.part-two h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 
 }
