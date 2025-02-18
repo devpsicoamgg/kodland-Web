@@ -159,3 +159,29 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 3. Se asignan estilos.
 4. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
 </details>
+
+<details>
+<summary> 08.- 🦶 Creación del Footer </summary>
+
+1. Se crea el footer <code>&lt;footer&gt;</code> con la clase "footer-content". 
+2. Éste al igual que el <code>&lt;header&gt;</code> tiene un <code>&lt;nav&gt;</code> que anida una lista
+
+</details>
+
+<details>
+<summary> 09.- 🍔 Hamburger Menu </summary>
+
+1. Se agrega un btn que sirvió para referenciar el menu. 
+2. En [Google Icons](https://fonts.google.com/icons) se obtiene el menu. 
+3. Se modifica con la paleta de colores que dispone el diseño usando el color <code>#fc2e20</code>.
+4. Se da interactividad con JS, para tal fin: 
+- Se agrega un addEventListener. 
+- Se obtienen los elementos asociados al evento (que al cambiar el tamaño aparezca o desaparezca)
+- Evento 1. Menu al hacer click se alterna el estado activo en el nav-menu. 
+- Evento 2. Para dispositivos menores de 768px se active y modifique el nav-menu. 
+- Evento 3. Evitar que se cierre si se hacen click dentro del menú. 
+- Evento 4. Cerrar el menú si se hace click fuera de él. 
+5. Se manejan estilos en el CSS de display: none ante pc y dispositivos mayores a 769px y display: block ante dispositivos mayores a 768px
+
+
+</details>
