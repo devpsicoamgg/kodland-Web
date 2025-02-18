@@ -185,3 +185,35 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 
 
 </details>
+
+
+<details>
+<summary> 10.- ❎ Ventana Modal </summary>
+
+1. Se agrega ventana modal manejado por JS en el control de validación de formulario y aparición de la misma. 
+2. Se da interactividad con JS, para tal fin: 
+- Se integra al addEventListener del menú hamburguesa. 
+- Se obtienen los elementos asociados al evento (que cierre, se abra y el modal en si mismo)
+- Con un forEach se asocian 2 listeners para un solo evento. 
+- Se remueve la clase active para cerrar el modal fuera del formulario o al dar click en la X. 
+- Se hacen validaciones de todos los campos. 
+- Al envío del form se muestra un alert. 
+
+</details>
+
+<details>
+<summary> 11.- 🔨 Herramientas para la construcción </summary>
+
+1. Resúmenes de HTML en [GitHub-HTML](https://github.com/devpsicoamgg/myHTMLNotesAMGG/blob/main/html/index.html). 
+2. Resúmenes de CSS en [GitHub-CSS](https://github.com/devpsicoamgg/myHTMLNotesAMGG/tree/main/css).
+3. Resúmenes de JS en [GitHub-JS](https://github.com/devpsicoamgg/myJSNotesAMGG).
+
+</details>
+
+
+<div style="font-size: 24px; font-weight: bold; text-align: center;">
+  😃 PUEDES VISITAR EL SITIO DEPLOYADO DESDE NETLIFY EN   <br>
+  <a href="https://rainbow-strudel-eb3ab1.netlify.app/" target="_blank" style="font-size: 28px; color: #007bff; text-decoration: none; font-weight: bold;">
+    https://rainbow-strudel-eb3ab1.netlify.app/
+  </a>
+</div>
