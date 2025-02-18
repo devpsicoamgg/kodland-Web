@@ -138,7 +138,15 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 
 1. Se crea la parte dos como una section. 
 2. Se crean un titulo <code>&lt;h2&gt;</code> teniendo como referente que ya hay un titulo <code>&lt;h1&gt;</code> y para respetar ese sentido semántico de un solo titulo principal. 
-3. Se agrega el btn. 
-4. Se asignan estilos.
-5. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
+3. Se asignan estilos.
+4. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
+</details>
+
+<details>
+<summary> 07.- 🥉 Parte tres </summary>
+
+1. Se crea la parte tres como una <code>&lt;section&gt;</code>. 
+2. Esta <code>&lt;section&gt;</code> contiene un <code>&lt;div&gt;</code> padre que se bautiza con una clase llamada <code>&lt;div class="elements-list"&gt;</code>, los cuales agrupan por <code>&lt;div&gt;</code> los elementos que se muestran en el catálogo
+3. Se asignan estilos.
+4. Se trabaja sobre estilos responsivos y en pantallas grandes y versión 📱 mobile para la sección.
 </details>
