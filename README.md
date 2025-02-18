@@ -111,14 +111,24 @@ para la traducción de la imagen obteniendo que la traducción se muestra así:<
 <summary> 04.- 🤯 Creación del Header </summary>
 
 1. Se crea el header. 
-1. Se agrega un favicon el cual se estiliza con la pagina de [favicon-converter](https://favicon.io/favicon-converter/). 
-2. Se aplican estilos para el header. 
-3. Se important fuentes de  [Google font](https://fonts.google.com/). 
-4. 
+2. Se agrega un favicon el cual se estiliza con la pagina de [favicon-converter](https://favicon.io/favicon-converter/). 
+3. Se aplican estilos para el header. 
+4. Se important fuentes de  [Google font](https://fonts.google.com/). 
+5. 
 <div align="center">
   <img src="creationResources/fontMontserrat.PNG" alt="Fuente Montserrat" width="400">
   <img src="creationResources/fontPoppins.PNG" alt="Fuente Poppins" width="400">
   <img src="creationResources/fontRoboto.PNG" alt="Funente Roboto" width="400"></div> 
 
-2. Se crea un primer hover con trasformación de color y tamaño. 
+6. Se crea un primer hover con trasformación de color y tamaño. 
+</details>
+
+<details>
+<summary> 05.- 🥇 Parte uno </summary>
+
+1. Se crea la parte uno como una section. 
+2. Se crean 2 div dentro de la section que contienen la img y el texto. 
+3. Se agrega el btn. 
+4. Se asignan estilos.
+5. Se trabaja sobre estilos responsivos y en pantallas grandes para cada sección montada.
 </details>

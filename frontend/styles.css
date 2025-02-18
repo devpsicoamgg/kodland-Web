@@ -1,3 +1,4 @@
+/* VARIABLES GLOBALES */
 :root {
   --product-box-bg-color: #cbf3f0;
   --color-header-bg: #ffbf69;
@@ -7,7 +8,7 @@
   --font-body-text: 'Roboto', sans-serif;    
 }
 
-
+/* BODY*/
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,7 @@
   font-family: var(--font-head);
 } 
 
+/*HEADER*/
 header {
   width: 100%;
   display: flex;
@@ -30,6 +32,7 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* MENU HEADER */
 .nav-menu {
   position: fixed;
   top: 0;
@@ -44,6 +47,12 @@ header {
   gap: 15px;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+}
+
+.nav-menu.active {
+  transform: translateX(0);
+  visibility: visible; 
+  opacity: 1;
 }
 
 .nav-menu ul {
@@ -67,6 +76,57 @@ header {
 
 
 
+/* PARTE UNO */
+.part-one {
+  padding-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 400px -5px;
+  background: var(--color-header-bg);
+  color: var(--dark-color);
+}
+
+.part-one-content {
+  padding-left: 20%;
+}
+
+.part-one-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.part-one-content p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.part-one-content button {
+  background: var(--product-box-bg-color);
+  color: var(--dark-color);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px; 
+  margin-left: 50%;
+  transition: color 0.3s ease;
+}
+
+
+.part-one-content button:hover {
+  background: var(--color-red);
+  color: var(--product-box-bg-color);
+  transform: scale(1.1);
+}
+
+.part-one-image img {
+  max-width: 90%;
+  padding-right: 20%;
+}
+
+
+
 /* DISEÑO RESPONSIVO*/
 @media (max-width: 768px) {
   /* Header */
@@ -77,9 +137,25 @@ header {
   .nav-menu {
     width: 100%;
   }
+  .part-one {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .part-one-content h1 {
+    font-size: 32px;
+  }
+  .part-one-content p {
+    font-size: 16px;
+  }
+  .part-one-image img {
+    max-width: 80%;
+  }
+
+
 }
 
-/* PANTALLAS GRANDES */
+/* PANTALLAS GRANDES SOLO NAV */
 @media (min-width: 769px) {
 
   .nav-menu {
